@@ -1,0 +1,10 @@
+Pseudo code pour le jeu de walbreaker
+utilisation de timer et sdl et fmod pour le son
+declaration des surfaces pour la balle le fond les briques et la planche en bas
+curseur invisible fenetre non redimentionnable la planche du bas bouge avec les
+touches flèche du clavier. Sur le coter droit le score le niveau .
+Pour les surfaces utilisation de structure
+Pour les briques utlisation de Rect_Fill pour la couleur
+int main
+init_SDL
+
