@@ -7,7 +7,10 @@
  * */
 #ifndef
     typedef struct surface surface
+    struct surface
     {
-SDL_S
-    }
+        SDL_Surface screen;
+        surface* =  next;
+    };
+    typedef surface* display
 #endif
